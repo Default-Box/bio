@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="About Me | Default Box" />
+        <title>About Me | Default Box</title>
+        <meta name="description" content="📦" />
         <link rel="icon" href="/package.ico" />
       </Head>
       <p>
