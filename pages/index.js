@@ -13,6 +13,7 @@ export default function Home() {
       <p>
               This is coming soon 👀
             </p>
+            <a href="https://defaultbox.carrd.co">go here for now</a>
     </div>
   )
 }
