@@ -17,6 +17,7 @@ export default function FirstPost() {
       height={500}
     />
     <p>A great couple ♡</p>
+    <p>Foxyfox#1961, why did you make me do this</p>
       <h2>
       </h2>
     </Layout>
