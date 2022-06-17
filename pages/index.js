@@ -26,6 +26,8 @@ export default function Home() {
         <a>ihavenoideawhatimdoing</a>
       </Link>
       <footer>I actually have no idea what I'm doing</footer>
+      <script src="https://default-box.instatus.com/widget/script.js">
+</script>
     </Layout>
   );
 }
