@@ -1,19 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Layout, { siteTitle } from '../styles/components/layout';
+import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Layout home>
       <Head>
-        <title>About Me | Default Box</title>
-        <meta name="description" content="📦" />
-        <link rel="icon" href="/package.ico" />
+        <title>{siteTitle}</title>
       </Head>
-      <p>
-              This is coming soon 👀
-            </p>
-            <a href="https://defaultbox.carrd.co">go here for now</a>
-    </div>
-  )
+      <section className={utilStyles.headingMd}>
+        <p>Hey There! I'm Default Box a professional idiot and I don't know what I'm doing.</p>
+        <p>
+        <a href="https://twitter.com/DefaultBox_">Twitter</a>
+        </p>
+        <p>
+        <a href="https://github.com/Default-Box/">Github</a>
+        </p>
+      </section>
+    </Layout>
+  );
 }
