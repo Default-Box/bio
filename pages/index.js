@@ -9,7 +9,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>👋 Hey There! I'm Default Box, a professional idiot and I don't know what I'm doing.</p>
+        <p>👋 Hey There! I'm Default Box, I'm a professional idiot and I don't know what I'm doing.</p>
         <p>
         <a href="https://twitter.com/DefaultBox_">Twitter</a>
         </p>
