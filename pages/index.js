@@ -25,6 +25,7 @@ export default function Home() {
       <Link href="/ihavenoideawhatimdoing">
         <a>ihavenoideawhatimdoing</a>
       </Link>
+      <footer>I actually have no idea what I'm doing</footer>
     </Layout>
   );
 }
