@@ -1,0 +1,17 @@
+import Head from 'next/head';
+import Link from 'next/link';
+import Layout from '../styles/components/layout';
+
+export default function FirstPost() {
+  return (
+    <Layout>
+      <Head>
+        <title>I have no idea what I'm doing</title>
+      </Head>
+      <h1>I have no idea what I'm doing :p</h1>
+      <p>I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doingI have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doingI have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doingI have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing I have no idea what im doing</p>
+      <h2>
+      </h2>
+    </Layout>
+  );
+}

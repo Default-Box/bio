@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="https://avatars.githubusercontent.com/u/70744994?v=4"
+              src="https://c.tenor.com/9PTGVf4BLwYAAAAC/crying-emoji-dies.gif"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -44,8 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="https://avatars.githubusercontent.com/u/70744994?v=4"
-                  className={utilStyles.borderCircle}
+                  src="https://c.tenor.com/9PTGVf4BLwYAAAAC/crying-emoji-dies.gif"
                   height={108}
                   width={108}
                   alt={name}
