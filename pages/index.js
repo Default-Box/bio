@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../styles/components/layout';
 import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,16 +12,19 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>👋 Hey There! I'm Default Box, I'm a professional idiot and I don't know what I'm doing.</p>
         <p>
-        <a href="https://twitter.com/DefaultBox_" target="_blank">Twitter</a>
+        <p>Check out <a href="https://twitter.com/DefaultBox_" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
         </p>
         <p>
-        <a href="https://github.com/Default-Box/" target="_blank">GitHub</a>
+        <p>Check out <a href="https://github.com/Default-Box/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
         </p>
         <p>
-        <a href="https://github.com/Default-Box/bio" target="_blank">GitHub</a>
+        <p>Check out <a href="https://github.com/Default-Box/bio" target="_blank" rel="noopener noreferrer">My Code</a>.</p>
         </p>
       </section>
-      <a href="/ihavenoideawhatimdoing">ihavenoideawhatimdoing</a>
+
+      <Link href="/ihavenoideawhatimdoing">
+        <a>ihavenoideawhatimdoing</a>
+      </Link>
     </Layout>
   );
 }
