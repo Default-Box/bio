@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../utils.module.css';
 import Link from 'next/link';
+import Script from 'next/Script'
 
 const name = 'Default Box';
 export const siteTitle = 'About Me | Default Box';
@@ -67,8 +68,7 @@ export default function Layout({ children, home }) {
             <a>← Back to home</a>
           </Link>
           <footer>I actually have no idea what I'm doing</footer>
-          <script src="https://default-box.instatus.com/widget/script.js">
-</script>
+          <Script src="https://default-box.instatus.com/widget/script.js"></Script>
         </div>
       )}
     </div>

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../styles/components/layout';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -26,8 +27,7 @@ export default function Home() {
         <a>ihavenoideawhatimdoing</a>
       </Link>
       <footer>I actually have no idea what I'm doing</footer>
-      <script src="https://default-box.instatus.com/widget/script.js">
-</script>
+      <Script src="https://default-box.instatus.com/widget/script.js"></Script>
     </Layout>
   );
 }
