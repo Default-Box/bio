@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../utils.module.css';
 import Link from 'next/link';
-import Script from 'next/Script'
+import Script from 'next/script'
 
 const name = 'Default Box';
 export const siteTitle = 'About Me | Default Box';
